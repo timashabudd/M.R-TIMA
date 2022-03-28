@@ -1,4 +1,4 @@
-const Amazon = require('../events');
+const DarkQueen = require('../events');
 const Config = require('../config');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
@@ -7,7 +7,7 @@ const Language = require('../language');
 const Lang = Language.getString('amazone');
 const tk = Config.WORKTYPE == 'public' ? false : true
 
-Amazon.addCommand({pattern: 'menu', fromMe: tk, desc: Lang.MENU}, (async (message, match) => {
+Dark Queen.addCommand({pattern: 'menu', fromMe: tk, desc: Lang.MENU}, (async (message, match) => {
     var time = new Date().toLocaleString('SI', { timeZone: Config.TIME_ZONE }).split(' ')[1]
 
     var wish = ''
@@ -32,19 +32,19 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  *├──────────●►*
  *│🥳HEY,*  `+wish+`
  *│👤Name:* `+Config.BOT_NAME+`
- *│💎Role:* Developer
+ *│💎Developer:* M.R TIMA
  *│⏰Time:* `+time+`
  *│📡Server:* Digital Ocean
  *│📦Frameworks:* Nodejs
  *│👾Working As*
  *│🤖 `+Config.WORKTYPE+`*
- *│ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ 2021*
+ *│ ᴅᴀʀᴋ Qᴜᴇᴇɴ 2022*
  *╰───────────●►*
 
  *🙇‍♂️Hey! buddy,*
-      *You can see alexa command panel, Click the menu button and Select your choice.*
+      *You can see Dark Queen command panel, Click the menu button and Select your choice.*
  
- *ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴜꜱɪɴɢ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ*
+ *ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴜꜱɪɴɢ ᴅᴀʀᴋ Qᴜᴇᴇɴ*
 `}) 
 
  }));
