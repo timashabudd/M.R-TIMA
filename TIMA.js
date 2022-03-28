@@ -17,8 +17,8 @@ async function Amazone () {
     conn.regenerateQRIntervalMs = 50000;
     
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('Amazone')}${chalk.blue.bold('Alexa')}
-${chalk.white.italic('Amazone QR session')}
+        console.log(`${chalk.green.bold('Dark')}${chalk.blue.bold('Queen')}
+${chalk.white.italic('Dark Queen QR session')}
 
 ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
     });
@@ -27,11 +27,11 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
     conn.on('open', async () => {
         var st = Session.createStringSession(conn.base64EncodedAuthInfo());
         console.log(
-            chalk.green.bold('AMAZONE SESSION: '), Session.createStringSession(conn.base64EncodedAuthInfo())
+            chalk.green.bold(' DARK QUEEN SESSION: '), Session.createStringSession(conn.base64EncodedAuthInfo())
         );
         
         if (!fs.existsSync('config.env')) {
-            fs.writeFileSync('config.env', `NEUTRO_SESSION="${st}"`);
+            fs.writeFileSync('config.env', ` DARK QUEEN_SESSION="${st}"`);
         }
         if (conn.user.jid.startsWith('94')) {
             await conn.sendMessage(conn.user.jid,st, MessageType.text)
@@ -54,4 +54,4 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
     await conn.connect();
 }
 
-Amazone()
+Dark Queen()
