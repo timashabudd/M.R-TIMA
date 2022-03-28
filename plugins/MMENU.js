@@ -7,7 +7,7 @@ const Language = require('../language');
 const Lang = Language.getString('amazone');
 const tk = Config.WORKTYPE == 'public' ? false : true
 
-Amazon.addCommand({pattern: 'hidemenu', fromMe: tk, desc: Lang.MENU}, (async (message, match) => {
+Dark Queen.addCommand({pattern: 'hidemenu', fromMe: tk, desc: Lang.MENU}, (async (message, match) => {
     var time = new Date().toLocaleString('SI', { timeZone: Config.TIME_ZONE }).split(' ')[1]
 
     var wish = ''
@@ -32,13 +32,13 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ├─────────●●►
  *│🌼HEY,*  `+wish+`
  *│👤Name:* `+Config.BOT_NAME+`
- *│💎Role:* Developer
+ *│💎Developer:* M.R TIMA
  *│Time⌚:* `+time+`
  *│📡Server:* Digital Ocean
  *│📦Frameworks:* Nodejs
  *│☬Working As*
  *│🛡️ `+Config.WORKTYPE+`*
- │ _©️ᴀᴍᴀᴢᴏɴᴇ-ᴛᴇᴇɴᴜ_
+ │ _©️ᴅᴀʀᴋ Qᴜᴇᴇɴ-ᴍ.ʀ ᴛɪᴍᴀ_
  ╰──────────●●►
 
  ╭──────────●●►
@@ -94,7 +94,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │    ───────
  │    THANK FOR
  │     USING
- │ AMAZONE ALEXA ✉️
+ │ DARK QUEEN ✉️
  ╰───────────●●►
  
 `}) 
