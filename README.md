@@ -2,6 +2,6 @@
 
 *□△©️ DONT USE OUR API'S*
  <a>
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kavindya-X/ALEXA)
+[![run on replit](https://www.herokucdn.com/run on replit/button.svg)](https://replit.com/@Timasha2/Dark-Queen?v=1)
 
-# 🧚‍you don't use this repo👿
+
