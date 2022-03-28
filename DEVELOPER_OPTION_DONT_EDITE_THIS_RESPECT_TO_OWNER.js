@@ -167,6 +167,6 @@ A_TEENU: process.env.A_TEENU === undefined ? '' : process.env.A_TEENU,
         A_TEENU: process.env.A_TEENU === undefined ? '' : process.env.A_TEENU
     },
     DATABASE_URL: DATABASE_URL,
-    DATABASE: DATABASE_URL === './Amazone.db' ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: DEBUG }) : new Sequelize(DATABASE_URL, { dialectOptions: { ssl: { require: true, rejectUnauthorized: false } }, logging: DEBUG }),
+    DATABASE: DATABASE_URL == './Amazone.db' ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: DEBUG }) : new Sequelize(DATABASE_URL, { dialectOptions: { ssl: { require: true, rejectUnauthorized: false } }, logging: DEBUG }),
     SUPPORT3: "905511384572-1621015274"
 };
