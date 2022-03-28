@@ -1,4 +1,4 @@
-const Amazon = require('../events');
+const DarkQueen = require('../events');
 const Config = require('../config');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
