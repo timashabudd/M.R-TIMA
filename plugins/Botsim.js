@@ -36,8 +36,8 @@ const heroku = new Heroku({
 });
 
 const cmsg = `*👩‍🦰 : හායි ඔයාලට කොහොමද?,*
-          *මම Alexa Bot*`
-const alexa = `👩‍🦰 : Alexa Bot යනු ලංකාවේ වැඩිම Features ඇතුලත් කර ඇති හොදම Bot වේ.`
+          *මම Dark Queen Whatsapp Bot වේ*`
+const alexa = `👩‍🦰 : Dark Queen Bot යනු ලංකාවේ වැඩිම Features ඇතුලත් කර ඇති හොදම Bot වේ.`
 
 let baseURI = '/apps/' + Config.HEROKU.APP_NAME;
 
@@ -46,7 +46,7 @@ if (Config.AI_BOT == 'true') {
 		Neotro.addCommand({pattern: 'bot ?(.*)', fromMe: true, desc: Lang.BOT_DESC}, async (message, match) => {
   if (match[1] === '') return await message.client.sendMessage(message.jid,"\n"+cmsg+"\n",MessageType.text,{quoted: message.data});
   if (match[1] === 'hi') return await message.client.sendMessage(message.jid,"\n"+cmsg+"\n",MessageType.text,{quoted: message.data});
-  if (match[1] === "alexa" || match[1] === "Alexa" || match[1].includes('alexa') || match[1].includes('Alexa') ) {
+  if (match[1] === "dark queen" || match[1] === "Dark Queen" || match[1].includes('dark queen') || match[1].includes('Dark Queen') ) {
 
 	return await message.client.sendMessage(message.jid,"\n"+alexa+"\n",MessageType.text,{quoted: message.data});
   }
