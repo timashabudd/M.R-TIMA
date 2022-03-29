@@ -1,7 +1,7 @@
 //Api එක උස්සන එකාගෙ මුලු පව්ලම හෙන හතක් වැදිලා 
 //මකබෑවිලාම යන්න ඕනෙ..!!!! eeeew!
 
-const amazone = require('../events');
+const darkqueen = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const { errorMessage, infoMessage } = require('../helpers');
