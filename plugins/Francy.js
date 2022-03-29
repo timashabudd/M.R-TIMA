@@ -22,7 +22,7 @@ await axios
         } = response.data
 
    
-	const msg = `**◁◉◉◉◉Fancy Text◉◉◉▷* \n             *👩‍🦰ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ* * \n              \n\n ${result} \n\n                 *◄◉◉◉◉◉◉◉◉◉◉ᴀʟᴇxᴀ◉◉◉◉◉◉◉◉►*`
+	const msg = `**◁™Fancy Text◉▷* \n             *💃🏼❤ ᴅᴀʀᴋ ǫᴜᴇᴇɴ * \n              \n\n ${result} \n\n                 *◄ᴅᴀʀᴋ ǫᴜᴇᴇɴ™►*`
 	
 	 await message.client.sendMessage(message.jid, msg , MessageType.text, {
           quoted: message.data,
@@ -48,7 +48,7 @@ await axios
         } = response.data
 
    
-	const msg = `*◁◉◉◉◉Fancy Text◉◉◉▷* \n             *👩‍🦰ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ* \n\n ${result} \n\n                \n*◄◉◉◉◉◉◉◉◉◉◉ᴀʟᴇxᴀ◉◉◉◉◉◉◉◉►*`
+	const msg = `**◁™Fancy Text◉▷* \n             *💃🏼❤ ᴅᴀʀᴋ ǫᴜᴇᴇɴ * \n              \n\n ${result} \n\n                 *◄ᴅᴀʀᴋ ǫᴜᴇᴇɴ™►*`
 	
 	 await message.client.sendMessage(message.jid, msg , MessageType.text, {
           quoted: message.data,
