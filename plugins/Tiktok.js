@@ -13,7 +13,7 @@ const Lang = Language.getString('scrapers');
 const ALang = Language.getString('amazone');
 let typea = Alexa.WORKTYPE == 'public' ? false : true
 let typeb = Alexa.WORKTYPE == 'public' ? true : false
-const capt = "🦹‍♀️ *ALEXA Tiktok Downloader* 🕊\n"
+const capt = "🦹‍♀️ *DARK QUEEN Tiktok Downloader* 🕊\n"
 
  // ===============================================================================================================
  
