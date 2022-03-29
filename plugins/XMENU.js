@@ -7,7 +7,7 @@ const Language = require('../language');
 const Lang = Language.getString('amazone');
 const tk = Config.WORKTYPE == 'public' ? false : true
 
-Amazon.addCommand({pattern: 'oldmenu', fromMe: tk, desc: Lang.MENU}, (async (message, match) => {
+Amazon.addCommand({pattern: 'tima', fromMe: tk, desc: Lang.MENU}, (async (message, match) => {
     var time = new Date().toLocaleString('SI', { timeZone: Config.TIME_ZONE }).split(' ')[1]
 
     var wish = ''
@@ -32,13 +32,13 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ├─────────●●►
  *│🌼HEY,*  `+wish+`
  *│👤Name:* `+Config.BOT_NAME+`
- *│💎Role:* Developer
+ *│💎Developer:* M.R TIMA
  *│Time⌚:* `+time+`
  *│📡Server:* Digital Ocean
  *│📦Frameworks:* Nodejs
  *│☬Working As*
  *│🛡️ `+Config.WORKTYPE+`*
- │ _©️ᴀᴍᴀᴢᴏɴᴇ-ᴛᴇᴇɴᴜ_
+ │ _©️ᴅᴀʀᴋ ǫᴜᴇᴇɴ-ᴍ.ʀ ᴛɪᴍᴀ_
  ╰──────────●●►
 
  ╭──────────●●►
@@ -46,8 +46,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │   ───────
  │
  │► .`+Config.PANEL_COMMAND+` [All command list]
- │► .alive [Check bot status]
- │► .bot [chat with bot]
+ │► .alive [Check bot status
  │► .Admin [ for owner ]
  │► .version [check Version 
  │►.update [check Update]
@@ -197,8 +196,8 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │    
  │    THANK FOR
  │     USING
- │ AMAZONE ALEXA ✉️
- │©️CHAMOD-KESHAN
+ │ DARK QUEEN ✉️
+ │©️M.R TIMA
  ╰───────────●●►
  
 `}) 
