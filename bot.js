@@ -320,7 +320,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*🧚‍♂ DARK QUEEN As Public! 👩‍🦰*\n\n_මෙය ඔබගේ LOG අංකයයි..මෙහි විධාන භාවිතයෙන් වළකින්න._\n_ඔබට පුලුවන් වෙනත් ඕනෑම කතා බහක විධාන භාවිතා කිරීමට.. :)_\n\n*ඔබේ Bot Public ආකාරයට ක්‍රියා කරයි..එය වෙනස් කිරීමට* _.setvar WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n*Bot ක්‍රියාත්මක වන්නෙ කෙසේද හා විධාන ලැයිස්තු ලබා ගැනීමට⚜ .basichelp විධානය භාවිතා කරන්න*\n\nDeveloper Number : wa.me/94773585511 - support group :\n*🧚‍♂ DARK QUEEN භාවිතා කිරීම සම්බන්ධයෙන් ස්තූතියි 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*🧚‍♂ DARK QUEEN As Public! 👩‍🦰*\n\n_මෙය ඔබගේ LOG අංකයයි..මෙහි විධාන භාවිතයෙන් වළකින්න._\n_ඔබට පුලුවන් වෙනත් ඕනෑම කතා බහක විධාන භාවිතා කිරීමට.. :)_\n\n*ඔබේ Bot Public ආකාරයට ක්‍රියා කරයි..එය වෙනස් කිරීමට* _.setvar WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n*Bot ක්‍රියාත්මක වන්නෙ කෙසේද හා විධාන ලැයිස්තු ලබා ගැනීමට⚜ .basichelp විධානය භාවිතා කරන්න*\n\nDeveloper Number : wa.me/94773585511 - support group :https://chat.whatsapp.com/ESgq5ThSobg4ZGD4pLAGf4\n*🧚‍♂ DARK QUEEN භාවිතා කිරීම සම්බන්ධයෙන් ස්තූතියි 💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -346,7 +346,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*🧚‍♂ DARK QUEEN Working As public!👩‍🦰*\n\nPlease do not try any commands here. This is your log number._\n_You can try commands anywhere else :)_\n\n_Type_ *.basichelp* _to get your full Help list and Basic Commands._\n\n_Your bot in Public Mode. To change, use_ ```.setvar WORK_TYPE:private``` _Developer Number._\n\n _wa.me/94773585511 - support group :/\n\n _*Thanks for using 🧚‍♂ DARK QUEEN💌*\n', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*🧚‍♂ DARK QUEEN Working As public!👩‍🦰*\n\nPlease do not try any commands here. This is your log number._\n_You can try commands anywhere else :)_\n\n_Type_ *.basichelp* _to get your full Help list and Basic Commands._\n\n_Your bot in Public Mode. To change, use_ ```.setvar WORK_TYPE:private``` _Developer Number._\n\n _wa.me/94773585511 - support group :https://chat.whatsapp.com/ESgq5ThSobg4ZGD4pLAGf4/\n\n _*Thanks for using 🧚‍♂ DARK QUEEN💌*\n', MessageType.text);
                 }               
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -375,7 +375,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*🧚‍♂ DARK QUEEN As private! 👩‍🦰*\n\n_මෙය ඔබගේ LOG අංකයයි..මෙහි විධාන භාවිතයෙන් වළකින්න._\n_ඔබට පුලුවන් වෙනත් ඕනෑම කතා බහක විධාන භාවිතා කිරීමට.. :)_\n\n*ඔබේ Bot Private ආකාරයට ක්‍රියා කරයි..එය වෙනස් කිරීමට* _.setvar WORK_TYPE:public_ *විධානය භාවිතා කරන්න.*\n\n*Bot ක්‍රියාත්මක වන්නෙ කෙසේද හා විධාන ලැයිස්තු ලබා ගැනීමට⚜ .basichelp විධානය භාවිතා කරන්න*\n\nDeveloper Number : _wa.me/94773585511_\n\n support group :__\n*🧚‍♂ DARK QUEEN භාවිතා කිරීම සම්බන්ධයෙන් ස්තූතියි 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*🧚‍♂ DARK QUEEN As private! 👩‍🦰*\n\n_මෙය ඔබගේ LOG අංකයයි..මෙහි විධාන භාවිතයෙන් වළකින්න._\n_ඔබට පුලුවන් වෙනත් ඕනෑම කතා බහක විධාන භාවිතා කිරීමට.. :)_\n\n*ඔබේ Bot Private ආකාරයට ක්‍රියා කරයි..එය වෙනස් කිරීමට* _.setvar WORK_TYPE:public_ *විධානය භාවිතා කරන්න.*\n\n*Bot ක්‍රියාත්මක වන්නෙ කෙසේද හා විධාන ලැයිස්තු ලබා ගැනීමට⚜ .basichelp විධානය භාවිතා කරන්න*\n\nDeveloper Number : _wa.me/94773585511_\n\n support group :https://chat.whatsapp.com/ESgq5ThSobg4ZGD4pLAGf4\n*🧚‍♂ DARK QUEEN භාවිතා කිරීම සම්බන්ධයෙන් ස්තූතියි 💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -644,7 +644,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                                     '\n_මෙය ඔබගේ LOG අංකයයි! _මෙහි විධාන භාවිතයෙන් වළකින්න_' +
                                     '\n_ඔබට පුලුවන් වෙනත් ඕනෑම කතාබහක විධාන භාවිතා කරන්න._' +
                                     '\n_වැඩි දුර උදව් සදහා සහය සමූහයට එකතු වෙන්න._' +
-                                    '\n_සහය සමූහ: https://chat.whatsapp.com/GTgqgMTo7FoJ1GqdijshsX 🛡️ \n\n' +
+                                    '\n_සහය සමූහ: https://chat.whatsapp.com/ESgq5ThSobg4ZGD4pLAGf4 🛡️ \n\n' +
                                     '*🚫ප්‍රධාන දෝෂය:* ```' + error + '```\n\n'
                                     , MessageType.text, {detectLinks: false});
 
@@ -777,7 +777,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                                     '\n* ' + awsh.DEVELOPER_TAG +'  Working Perfectly!*'+
                                     '\n_This is Your LOG Number Dont try Command here.!_' +
                                     '\n_Also you can Join our Support group.._' +
-                                    '\n_Support groups_: https://chat.whatsapp.com/GTgqgMTo7FoJ1GqdijshsX 🛡️ https://t.me/Amazone_Neotrox_Support_' +
+                                    '\n_Support groups_: https://chat.whatsapp.com/ESgq5ThSobg4ZGD4pLAGf4 🛡️ ' +
                                     '\n_(saved Messages)._\n\n' +
                                     '*Error:* ```' + error + '```\n\n'
                                     , MessageType.text, {detectLinks: false}
@@ -901,7 +901,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                                 }
                                 else {
                                     return await conn.sendMessage(conn.user.jid, '*🧚‍♂Sorry, I Couldnt Read This Error!🙇🏻*' +
-                                        '\n_You can write to our support groups for more help...🛡️ https://t.me/Amazone_Neotrox_Support_'
+                                        '\n_You can write to our support groups for more help...🛡️ https://chat.whatsapp.com/ESgq5ThSobg4ZGD4pLAGf4'
                                         , MessageType.text
                                     );
                                }
