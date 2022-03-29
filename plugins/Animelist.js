@@ -1,11 +1,11 @@
 const Neotro = require('../events');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
-const ANIME = "\n\n  *👩‍🦰Amazone Alexa Anime List*\n\n╔═════════▷\n╠🌼: .loli\n╠🌼: .wifu\n╠🌼: .neko\n╠🌼: .ava\n╠🌼: .kemo\n╠🌼: .awoo\n╠🌼: .shinobu\n╠🌼: .megumin\n╚═════════▷"
+const ANIME = "\n\n  *💃🏼❤Dark Queen Anime List*\n\n╔═════════▷\n╠🌼: .loli\n╠🌼: .wifu\n╠🌼: .neko\n╠🌼: .ava\n╠🌼: .kemo\n╠🌼: .awoo\n╠🌼: .shinobu\n╠🌼: .megumin\n\nᴾᴼᵂᴱᴿᴱᴰ ᴮʸ ᴰᴬᴿᴷ Qᵁᴱᴱᴺ"
 const fs = require('fs');
 const Ln = "Anime List"
 const axios = require('axios');
 let Language = require('../language');
-let Lang = Language.getString('amazone');
+let Lang = Language.getString('dark queen');
 const Config = require('../config');
 let tk = Config.WORKTYPE == 'public' ? false : true
 
