@@ -42,8 +42,8 @@ const YT_NEED = `🤪 *Direct MP3 URL ඇතුලත් කරන්න.*
  Supports All Direct MP3 Links (Telegraph,fastupload,mailboxdrive,ufile,...)
  
  ══════════════════
-       *Copyright © AZURE*
-        CODED BY RAMIYA
+       *Copyright © DARK QUEEN*
+        CODED BY M.R TIMA
 ══════════════════`
 
 // -----------------------------------------------------------------------------------------------------------------------------
@@ -69,7 +69,7 @@ Ramiya.addCommand({ pattern: 'findsong ?(.*)', fromMe: typea, desc: SH_DE, delet
     
             var respoimage = await axios.get(`https://i.imgur.com/H04Am1h.jpg`, { responseType: 'arraybuffer' }) 
             
-            const results = "👩‍🦰 *ALEXA SONG FINDER ©* \n\n🎙️ *TITLE :-* "+title+"\n👨🏻‍🎤 *ARTIST :-* "+artists+"\n🎼 *GENRE :-* "+genre+"\n📑 *ALBUM :-* "+album+"\n📅 *RELEASED ON :-* "+release_date+"\n"
+            const results = "👩‍🦰 *DARK QUEEN SONG FINDER ©* \n\n🎙️ *TITLE :-* "+title+"\n👨🏻‍🎤 *ARTIST :-* "+artists+"\n🎼 *GENRE :-* "+genre+"\n📑 *ALBUM :-* "+album+"\n📅 *RELEASED ON :-* "+release_date+"\n"
     
 		await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: results,quoted: message.data})
 	
@@ -104,7 +104,7 @@ Ramiya.addCommand({ pattern: 'findsong ?(.*)', fromMe: typeb, dontAddCommandList
     
             var respoimage = await axios.get(`https://i.imgur.com/H04Am1h.jpg`, { responseType: 'arraybuffer' }) 
             
-            const results = "👩‍🦰 *ALEXA SONG FINDER ©* \n\n🎙️ *TITLE :-* "+title+"\n👨🏻‍🎤 *ARTIST :-* "+artists+"\n🎼 *GENRE :-* "+genre+"\n📑 *ALBUM :-* "+album+"\n📅 *RELEASED ON :-* "+release_date+"\n"
+            const results = "👩‍🦰 *DARK QUEEN SONG FINDER ©* \n\n🎙️ *TITLE :-* "+title+"\n👨🏻‍🎤 *ARTIST :-* "+artists+"\n🎼 *GENRE :-* "+genre+"\n📑 *ALBUM :-* "+album+"\n📅 *RELEASED ON :-* "+release_date+"\n"
     
 		await message.client.sendMessage(message.jid, Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: results,quoted: message.data})
 	
