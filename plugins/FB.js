@@ -11,12 +11,12 @@ const Language = require('../language');
 const Lang = Language.getString('amazone');
 const YTV_DESC = "Facebook Video Downloader V2 ."
 const YT_NEED = "*need word!.*"
-const DWLOAD_VID = "*🎭Downloading Your Video...*"
-const YTV_UP = "*🚀Uploading Your Video...*"
-const NO_RESULT = "*🌀can't Find Anything...*"
+const DWLOAD_VID = "*☃Downloading Your Video...*"
+const YTV_UP = "*🔥Uploading Your Video...*"
+const NO_RESULT = "*☹can't Find Anything...*"
 const tk = Config.WORKTYPE == 'public' ? false : true
 
-    amazone.addCommand({ pattern: 'fbvideo ?(.*)', fromMe: tk, deleteCommand: false, desc: Lang.MP4,  deleteCommand: false}, async (message, match) => {
+    dark queen.addCommand({ pattern: 'fbvideo ?(.*)', fromMe: tk, deleteCommand: false, desc: Lang.MP4,  deleteCommand: false}, async (message, match) => {
         const linkk = match[1]
         if (!linkk) return await message.client.sendMessage(message.jid,YT_NEED,MessageType.text)
         await message.client.sendMessage(message.jid,DWLOAD_VID,MessageType.text);
