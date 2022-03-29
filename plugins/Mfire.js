@@ -13,7 +13,7 @@ const NO_RESULT = "*⚙️can't Find Anything...*"
 let tn = Config.WORKTYPE == 'public' ? false : true
 
 Neotro.addCommand({pattern: 'mediafire', fromMe: tn, desc: MMM}, (async (message, match) => {
-  await message.sendMessage('*╭─「 AMAZONE MEDIAFIRE DOWNLOADER 」*\n│ ╰────\n╭─「 COMMANDS」\n│ \n│ • afire <your mediafire APK Link >\n│ • pfire <your mediafire PDF link>\n「 ©️Amazone-teenuhx」');
+  await message.sendMessage('*╭─「 DARK  QUEEN MEDIAFIRE DOWNLOADER 」*\n│ ╰────\n╭─「 COMMANDS」\n│ \n│ • afire <your mediafire APK Link >\n│ • pfire <your mediafire PDF link>\n「 ©️ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ ǫᴜᴇᴇɴ」');
   
 }));
 
